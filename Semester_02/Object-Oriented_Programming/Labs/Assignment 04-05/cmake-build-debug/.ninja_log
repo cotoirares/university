@@ -1,0 +1,10 @@
+# ninja log v5
+10	198	1711462276324407953	CMakeFiles/oop_a4_5_cotoirares.dir/tests.cpp.o	e172084975ace6a3
+462	506	1712661516186382300	oop_a4_5_cotoirares	3cd7c70e8947c577
+7	573	1712660784652958716	CMakeFiles/oop_a4_5_cotoirares.dir/service/service.cpp.o	b0261dd4f655f97
+5	87	1712661753060334755	build.ninja	6355734aadf37ba7
+5	462	1712661516139314472	CMakeFiles/oop_a4_5_cotoirares.dir/ui/ui.cpp.o	2e0f1c3d0e9421ac
+7	567	1712660784647308607	CMakeFiles/oop_a4_5_cotoirares.dir/main.cpp.o	ddf16347f97017fc
+4	550	1712604354343028802	CMakeFiles/oop_a4_5_cotoirares.dir/domain/dynamic_array.cpp.o	593099c8cfb5f4d7
+6	576	1712660784657581275	CMakeFiles/oop_a4_5_cotoirares.dir/repository/repo.cpp.o	485115edc41d130
+6	565	1711459156763860818	CMakeFiles/oop_a4_5_cotoirares.dir/domain/movie.cpp.o	72e9b67cecac9544

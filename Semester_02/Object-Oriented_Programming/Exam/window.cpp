@@ -111,7 +111,9 @@ Window::Window(Session& session, Person person, QWidget* parent) : session{sessi
                 new QListWidgetItem{QString::fromStdString(it.getName()), personsList};
         });
 
-
+        connect(updateButton, &QPushButton::clicked, this, [this, &session](){
+            session.updateEvent(session.getEvents()[eventsList->currentRow()].getName(), descriptionEdit1->text().toStdString(), session.getEvents()[eventsList->currentRow()].getDate(), session.getEvents()[eventsList->currentRow()].getLocation());
+        });
 
         connect(updateDateButton, &QPushButton::clicked, this, [this, &session](){
             session.updateEvent(session.getEvents()[eventsList->currentRow()].getName(), session.getEvents()[eventsList->currentRow()].getDescription(), dateEdit1->text().toStdString(), session.getEvents()[eventsList->currentRow()].getLocation());

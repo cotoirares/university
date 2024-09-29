@@ -1,0 +1,5 @@
+/Users/rares/Desktop/facultate/OOP/oop-e-retake-cotoirares/cmake-build-debug/CMakeFiles/oop-e-retake-cotoirares.dir
+/Users/rares/Desktop/facultate/OOP/oop-e-retake-cotoirares/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rares/Desktop/facultate/OOP/oop-e-retake-cotoirares/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rares/Desktop/facultate/OOP/oop-e-retake-cotoirares/cmake-build-debug/CMakeFiles/oop-e-retake-cotoirares_autogen_timestamp_deps.dir
+/Users/rares/Desktop/facultate/OOP/oop-e-retake-cotoirares/cmake-build-debug/CMakeFiles/oop-e-retake-cotoirares_autogen.dir

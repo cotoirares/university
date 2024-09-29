@@ -1,0 +1,11 @@
+# ninja log v5
+0	146	1710856643274477398	CMakeFiles/a2_3_cotoirares.dir/main.c.o	e35d9d354608a604
+147	190	1710856643319909835	a2_3_cotoirares	8051be131f0d21f6
+1	147	1710856643276635602	CMakeFiles/a2_3_cotoirares.dir/repository/memory_repo.c.o	b1da8c019caf1bfc
+2	183	1710853852821964605	CMakeFiles/a2_3_cotoirares.dir/UI/UI.c.o	ea1b07032fe5279
+3	187	1710856211238925873	CMakeFiles/a2_3_cotoirares.dir/domain/domain.c.o	cb9146dde7724ca6
+1	154	1710856380476814795	CMakeFiles/a2_3_cotoirares.dir/controller/controller.c.o	bc454a4c6ed66f8b
+3	866	1710858215929607342	CMakeFiles/a2_3_cotoirares.dir/tests.c.o	7d659fafd189d320
+866	1109	1710858216174079076	a2_3_cotoirares	98a709c865c304b2
+3	274	1710858564134141803	CMakeFiles/a2_3_cotoirares.dir/tests.c.o	7d659fafd189d320
+274	347	1710858564209400858	a2_3_cotoirares	98a709c865c304b2

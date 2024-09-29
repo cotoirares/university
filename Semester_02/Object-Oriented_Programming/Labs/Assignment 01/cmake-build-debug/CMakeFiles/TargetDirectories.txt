@@ -1,0 +1,3 @@
+/Users/rares/Desktop/facultate/OOP/a1-cotoirares-1/cmake-build-debug/CMakeFiles/a1_cotoirares_1.dir
+/Users/rares/Desktop/facultate/OOP/a1-cotoirares-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rares/Desktop/facultate/OOP/a1-cotoirares-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,6 @@
-rares|untold|music festival|2023.08.10|10.5 11.2|Attending persons: 
-alex|neversea|latino show|2024.07.07|12.1 10.55|Attending persons: 
+rares|untold|music festival|2023.08.19|10.5 11.2|Attending persons: alexandru, alexandra, 
+alex|neversea|latino show|2024.07.07|12.1 10.55|Attending persons: alexandra, 
 andrei|electric castle|youth meeting|2024.07.06|12.3 10.2|Attending persons: 
 marius|beach please|music show|2024.07.03|13.1 9.2|Attending persons: 
 ana|histrioniada liceenilor|theatre festival|2024.09.11|10.1 20.2|Attending persons: 
+andrei|test|test|2023.10.10|10.1 10.2|Attending persons: 

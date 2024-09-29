@@ -76,6 +76,4 @@ public:
                 persons.push_back(it.second);
         return persons;
     }
-
-
 };

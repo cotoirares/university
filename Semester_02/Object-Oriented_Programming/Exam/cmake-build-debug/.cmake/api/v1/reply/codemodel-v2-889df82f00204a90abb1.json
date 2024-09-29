@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "oop-e-retake-cotoirares",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "oop-e-retake-cotoirares::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-oop-e-retake-cotoirares-Debug-2dace1bbfd889dc9594e.json",
+					"name" : "oop-e-retake-cotoirares",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "oop-e-retake-cotoirares_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-oop-e-retake-cotoirares_autogen-Debug-ae435553b55428529e89.json",
+					"name" : "oop-e-retake-cotoirares_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "oop-e-retake-cotoirares_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-oop-e-retake-cotoirares_autogen_timestamp_deps-Debug-4f502319656ae369c036.json",
+					"name" : "oop-e-retake-cotoirares_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/rares/Desktop/facultate/OOP/oop-e-retake-cotoirares/cmake-build-debug",
+		"source" : "/Users/rares/Desktop/facultate/OOP/oop-e-retake-cotoirares"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
