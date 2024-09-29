@@ -1,0 +1,6 @@
+rares|20.1 10.2|1
+alex|20.2 10.1|1
+marian|10 10|0
+andrei|9.1 10.1|1
+alexandra|0.1 10.2|0
+alexandru|10 10|0

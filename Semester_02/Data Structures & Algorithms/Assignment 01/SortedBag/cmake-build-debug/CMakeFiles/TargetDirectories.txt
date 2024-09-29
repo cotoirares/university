@@ -1,0 +1,3 @@
+/Users/rares/Desktop/facultate/DSA/lab 1 hw/SortedBag/cmake-build-debug/CMakeFiles/SortedBag.dir
+/Users/rares/Desktop/facultate/DSA/lab 1 hw/SortedBag/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rares/Desktop/facultate/DSA/lab 1 hw/SortedBag/cmake-build-debug/CMakeFiles/rebuild_cache.dir
