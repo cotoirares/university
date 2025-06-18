@@ -1,0 +1,50 @@
+﻿@model ASPTemp.Models.AssignViewModel
+@{
+    ViewData["Title"] = "Assign";
+}
+@if (!Context.Session.GetInt32("Id").HasValue)
+{
+    <div class="text-center">
+        <h1 class="display-4">You are not logged in</h1>
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-4">Assign Page</h1>
+
+        <div class="assign-container">
+            <div class="form-holder">
+                <form asp-controller="Project" asp-action="AssignDevs" method="post" class="login-form">
+                    <div class="form-area">
+                        <label asp-for="developerName">Name</label>
+                        <input asp-for="developerName" type="text" class="form-control" />
+                    </div>
+                    <div class="form-area">
+                        <label asp-for="projects">Projects</label>
+                        <input asp-for="projects" type="text" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-primary sbt-btn mt-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+    .form-area {
+       width:500px;
+    }
+
+    .assign-container{
+        display: flex;
+        align-content:center;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .form-holder {
+        display: flex;
+        justify-content: center;
+    }
+</style>

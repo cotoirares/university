@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Players</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+        th:hover {
+            background-color: #ddd;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .input-container {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        input {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table id="tabel">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Age</th>
+                <th>Birth place</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rafael Nadal</td>
+                <td>37</td>
+                <td>Palma de Mallorca</td>
+            </tr>
+            <tr>
+                <td>Roger Federer</td>
+                <td>40</td>
+                <td>Basel</td>
+            </tr>
+            <tr>
+                <td>Novak Djokovic</td>
+                <td>38</td>
+                <td>Belgrad</td>
+            </tr>
+            <tr>
+                <td>Carlos Alcaraz</td>
+                <td>23</td>
+                <td>Murcia</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="input-container">
+        <input type="text" id="playerName" placeholder="Player Name">
+        <input type="number" id="playerAge" placeholder="Age">
+        <input type="text" id="birthPlace" placeholder="Birth Place">
+        <button onclick="addPlayer()">Add Player</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

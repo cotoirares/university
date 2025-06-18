@@ -1,0 +1,59 @@
+<!-- 1. Design a webpage with a prominent display of text that reacts to user interaction. The text should have a "liquid" distortion effect, where hovering or clicking on the text causes it to ripple and warp. This effect should be achieved using CSS filters, transforms, and potentially clip-path for masking.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Problem 1</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f0f0f0;
+      font-family: sans-serif;
+    }
+    .text {
+      font-size: 4rem;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff00ff, #00ffff);
+      background-clip: text;
+      color: transparent;
+      filter: url(#liquid-warp);
+      transition: transform 0.3s ease;
+    }
+    .text:hover {
+      transform: scale(1.1);
+    }
+    .text:active {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <svg style="position: absolute; width: 0; height: 0;">
+    <defs>
+      <filter id="liquid-warp">
+        <feTurbulence 
+          type="turbulence" 
+          baseFrequency="0.02" 
+          numOctaves="2" 
+          result="warpNoise"
+        />
+        <feDisplacementMap 
+          in="SourceGraphic" 
+          in2="warpNoise" 
+          scale="30" 
+          xChannelSelector="R" 
+          yChannelSelector="G"
+        />
+      </filter>
+    </defs>
+  </svg>
+  <div class="text">Hello World</div>
+</body>
+</html>
+

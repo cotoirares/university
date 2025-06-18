@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .left-sidebar {
+            width: 275px;
+            padding: 0 12px;
+            position: fixed;
+            height: 100vh;
+            border-right: 1px solid #2f3336;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            padding: 12px;
+            margin: 2px 0;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .logo:hover {
+            background-color: #181818;
+        }
+
+        .nav-menu {
+            list-style: none;
+            margin-top: 4px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            margin: 4px 0;
+            border-radius: 9999px;
+            font-size: 20px;
+            font-weight: 400;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .nav-item:hover {
+            background-color: #181818;
+        }
+
+        .nav-item svg {
+            width: 26px;
+            height: 26px;
+            margin-right: 20px;
+            fill: currentColor;
+        }
+
+        .post-button {
+            background-color: #1d9bf0;
+            color: white;
+            border: none;
+            border-radius: 9999px;
+            padding: 15px 0;
+            width: 90%;
+            font-size: 17px;
+            font-weight: 700;
+            margin: 12px 0;
+            cursor: pointer;
+        }
+
+        .main-content {
+            margin-left: 275px;
+            width: 600px;
+            border-right: 1px solid #2f3336;
+            min-height: 100vh;
+        }
+
+        .profile-header {
+            padding: 12px 16px;
+            border-bottom: 1px solid #2f3336;
+            position: sticky;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.65);
+            backdrop-filter: blur(12px);
+            z-index: 1;
+        }
+
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+            padding: 16px;
+        }
+
+        .profile-banner {
+            width: 100%;
+            height: 200px;
+            background-color: #333;
+            margin-bottom: 60px;
+        }
+
+        .profile-avatar {
+            width: 134px;
+            height: 134px;
+            border-radius: 50%;
+            border: 4px solid #000;
+            background-color: #333;
+            margin-top: -80px;
+            margin-bottom: 12px;
+        }
+
+        .profile-details {
+            margin-top: 12px;
+        }
+
+        .profile-name {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .profile-handle {
+            color: #71767b;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        .profile-bio {
+            margin: 12px 0;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .profile-meta {
+            display: flex;
+            gap: 20px;
+            color: #71767b;
+            font-size: 14px;
+            margin-top: 12px;
+        }
+
+        .profile-meta span {
+            color: #fff;
+            font-weight: 700;
+        }
+
+        .profile-tabs {
+            display: flex;
+            border-bottom: 1px solid #2f3336;
+        }
+
+        .profile-tab {
+            flex: 1;
+            padding: 16px;
+            text-align: center;
+            color: #71767b;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .profile-tab.active {
+            color: #fff;
+            border-bottom: 4px solid #1d9bf0;
+        }
+
+        .posts-container {
+            border-top: 1px solid #2f3336;
+        }
+
+        .post {
+            padding: 16px;
+            border-bottom: 1px solid #2f3336;
+            display: flex;
+            gap: 12px;
+        }
+
+        .post-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .post-content {
+            flex: 1;
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-bottom: 4px;
+        }
+
+        .post-name {
+            font-weight: 700;
+        }
+
+        .post-handle, .post-time {
+            color: #71767b;
+        }
+
+        .post-text {
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .post-image {
+            width: 100%;
+            border-radius: 16px;
+            margin-bottom: 12px;
+        }
+
+        .post-actions {
+            display: flex;
+            justify-content: space-between;
+            max-width: 425px;
+            margin-top: 4px;
+        }
+
+        .post-action {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            color: #71767b;
+            font-size: 13px;
+        }
+
+        .post-action svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .right-sidebar {
+            width: 350px;
+            padding: 12px;
+            position: fixed;
+            right: 0;
+            height: 100vh;
+        }
+
+        .search-box {
+            background-color: #202327;
+            border-radius: 9999px;
+            padding: 12px 16px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box svg {
+            width: 20px;
+            height: 20px;
+            fill: #71767b;
+            margin-right: 12px;
+        }
+
+        .search-box input {
+            background: none;
+            border: none;
+            color: white;
+            width: 100%;
+            font-size: 15px;
+            outline: none;
+        }
+
+        .follow-section {
+            background-color: #16181c;
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+
+        .follow-header {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .follow-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #2f3336;
+        }
+
+        .follow-item:last-child {
+            border-bottom: none;
+        }
+
+        .follow-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+
+        .follow-info {
+            flex: 1;
+        }
+
+        .follow-name {
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        .follow-handle {
+            color: #71767b;
+            font-size: 14px;
+        }
+
+        .follow-button {
+            background-color: #fff;
+            color: #000;
+            border: none;
+            border-radius: 9999px;
+            padding: 8px 16px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        @media (max-width: 1280px) {
+            .right-sidebar {
+                width: 290px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .right-sidebar {
+                display: none;
+            }
+        }
+
+        @media (max-width: 880px) {
+            .left-sidebar {
+                width: 88px;
+                padding: 0 4px;
+            }
+            
+            .nav-item span {
+                display: none;
+            }
+            
+            .post-button {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .post-button span {
+                display: none;
+            }
+            
+            .main-content {
+                margin-left: 88px;
+            }
+        }
+
+        @media (max-width: 688px) {
+            .main-content {
+                width: calc(100% - 88px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- left -->
+    <div class="left-sidebar">
+        <svg viewBox="0 0 24 24" class="logo">
+            <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+        </svg>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.696L.622 8.807l1.06 1.696L3 9.679V19.5C3 20.881 4.119 22 5.5 22h13c1.381 0 2.5-1.119 2.5-2.5V9.679l1.318.824 1.06-1.696L12 1.696zM12 16.5c-1.933 0-3.5-1.567-3.5-3.5s1.567-3.5 3.5-3.5 3.5 1.567 3.5 3.5-1.567 3.5-3.5 3.5z"></path></svg>
+                <span>Home</span>
+            </li>
+            <li class="nav-item">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z"></path></svg>
+                <span>Explore</span>
+            </li>
+            <li class="nav-item">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z"></path></svg>
+                <span>Notifications</span>
+            </li>
+            <li class="nav-item">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M1.998 5.5c0-1.381 1.119-2.5 2.5-2.5h15c1.381 0 2.5 1.119 2.5 2.5v13c0 1.381-1.119 2.5-2.5 2.5h-15c-1.381 0-2.5-1.119-2.5-2.5v-13zm2.5-.5c-.276 0-.5.224-.5.5v2.764l8 3.638 8-3.636V5.5c0-.276-.224-.5-.5-.5h-15zm15.5 5.463l-8 3.636-8-3.638V18.5c0 .276.224.5.5.5h15c.276 0 .5-.224.5-.5v-8.037z"></path></svg>
+                <span>Messages</span>
+            </li>
+            <li class="nav-item">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 4.5C3 3.12 4.12 2 5.5 2h13C19.88 2 21 3.12 21 4.5v15c0 1.38-1.12 2.5-2.5 2.5h-13C4.12 22 3 20.88 3 19.5v-15zM5.5 4c-.28 0-.5.22-.5.5v15c0 .28.22.5.5.5h13c.28 0 .5-.22.5-.5v-15c0-.28-.22-.5-.5-.5h-13zM16 10H8V8h8v2zm-8 2h8v2H8v-2z"></path></svg>
+                <span>Lists</span>
+            </li>
+            <li class="nav-item">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"></path></svg>
+                <span>Bookmarks</span>
+            </li>
+            <li class="nav-item">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M7.501 19.917L7.471 21H.472l.029-1.083c.184-6.471 3.71-9.434 8.5-9.434s8.316 2.963 8.5 9.434l.029 1.083h-7l-.029-1.083c-.139-4.89-2.5-6.917-5-6.917s-4.861 2.027-5 6.917zM12 10.083c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z"></path></svg>
+                <span>Profile</span>
+            </li>
+        </ul>
+        <button class="post-button">
+            <span>Post</span>
+            <svg viewBox="0 0 24 24" style="display: none;"><path fill="currentColor" d="M23 3c-6.62-.1-10.38 2.421-13.05 6.03C7.29 12.61 6 17.331 6 22h2c0-1.007.07-2.012.19-3H12c4.1 0 7.48-3.082 7.94-7.054C22.79 10.147 23.17 6.359 23 3zm-7 8h-1.5v2H16c.63-.016 1.2-.08 1.72-.188C16.95 15.24 14.68 17 12 17H8.55c.57-2.512 1.57-4.851 3-6.78 2.16-2.912 5.29-4.911 9.45-5.187C20.95 8.079 19.9 11 16 11zM4 9V6H1V4h3V1h2v3h3v2H6v3H4z"></path></svg>
+        </button>
+    </div>
+
+    <!-- main -->
+    <div class="main-content">
+        <div class="profile-header">
+            <h2>X</h2>
+            <div class="profile-stats">15.2K posts</div>
+        </div>
+        <div class="profile-info">
+            <img src="profile-banner.jpg" alt="X profile banner" class="profile-banner">
+            <img src="x-avatar.jpg" alt="X avatar" class="profile-avatar">
+            <div class="profile-details">
+                <div class="profile-name">X</div>
+                <div class="profile-handle">@X</div>
+                <div class="profile-bio">what's happening?!</div>
+                <div class="profile-meta">
+                    <div><span>1</span> Following</div>
+                    <div><span>68.5M</span> Followers</div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-tabs">
+            <div class="profile-tab active">Posts</div>
+            <div class="profile-tab">Replies</div>
+            <div class="profile-tab">Highlights</div>
+            <div class="profile-tab">Media</div>
+            <div class="profile-tab">Likes</div>
+        </div>
+        <div class="posts-container">
+            <div class="post">
+                <img src="x-avatar.jpg" alt="X avatar" class="post-avatar">
+                <div class="post-content">
+                    <div class="post-header">
+                        <span class="post-name">X</span>
+                        <span class="post-handle">@X</span>
+                        <span class="post-time">· Mar 24</span>
+                    </div>
+                    <div class="post-text">my morning routine will change your life</div>
+                    <img src="post1.jpeg" alt="Morning routine items" class="post-image">
+                    <div class="post-actions">
+                        <div class="post-action">
+                            <svg viewBox="0 0 24 24"><path d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"></path></svg>
+                            444
+                        </div>
+                        <div class="post-action">
+                            <svg viewBox="0 0 24 24"><path d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"></path></svg>
+                            876
+                        </div>
+                        <div class="post-action">
+                            <svg viewBox="0 0 24 24"><path d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"></path></svg>
+                            3.4K
+                        </div>
+                        <div class="post-action">
+                            <svg viewBox="0 0 24 24"><path d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"></path></svg>
+                            2.9M
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <img src="x-avatar.jpg" alt="X avatar" class="post-avatar">
+                <div class="post-content">
+                    <div class="post-header">
+                        <span class="post-name">X</span>
+                        <span class="post-handle">@X</span>
+                        <span class="post-time">· Mar 21</span>
+                    </div>
+                    <div class="post-text">this week on X: college basketball, Community Notes updates, and more</div>
+                    <img src="post2.jpeg" alt="This week on X" class="post-image">
+                    <div class="post-actions">
+                        <div class="post-action">
+                            <svg viewBox="0 0 24 24"><path d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"></path></svg>
+                            322
+                        </div>
+                        <div class="post-action">
+                            <svg viewBox="0 0 24 24"><path d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"></path></svg>
+                            543
+                        </div>
+                        <div class="post-action">
+                            <svg viewBox="0 0 24 24"><path d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"></path></svg>
+                            2.1K
+                        </div>
+                        <div class="post-action">
+                            <svg viewBox="0 0 24 24"><path d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"></path></svg>
+                            1.8M
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- right -->
+    <div class="right-sidebar">
+        <div class="search-box">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z"></path></svg>
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="follow-section">
+            <div class="follow-header">You might like</div>
+            <div class="follow-item">
+                <button class="follow-button">Follow</button>
+                <img src="bill-gates-avatar.jpg" alt="Bill Gates" class="follow-avatar">
+                <div class="follow-info">
+                    <div class="follow-name">Bill Gates</div>
+                    <div class="follow-handle">@BillGates</div>
+                </div>
+            </div>
+            <div class="follow-item">
+                <img src="google-avatar.png" alt="Google" class="follow-avatar">
+                <div class="follow-info">
+                    <div class="follow-name">Google</div>
+                    <div class="follow-handle">@Google</div>
+                </div>
+                <button class="follow-button">Follow</button>
+            </div>
+            <div class="follow-item">
+                <img src="whatsapp-avatar.png" alt="WhatsApp" class="follow-avatar">
+                <div class="follow-info">
+                    <div class="follow-name">WhatsApp</div>
+                    <div class="follow-handle">@WhatsApp</div>
+                </div>
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

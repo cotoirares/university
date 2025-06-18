@@ -1,0 +1,188 @@
+﻿@page
+@model WEBASP.Pages.IndexModel
+@using WEBASP.Models
+@{
+    ViewData["Title"] = "Project";
+}
+
+<div class="container">
+    <h1>Welcome to the Authors System</h1>
+    
+    @if (Model.IsLoggedIn)
+    {
+        <div class="dashboard">
+            <h2>Dashboard</h2>
+            <p>Hello, @Model.CurrentUserName!</p>
+        </div>
+
+        <h1>Add document</h1>
+
+        <form method="post" asp-page-handler="AddDocument">
+            <input asp-for="NewDocument.Title" placeholder="Document Title" required />
+            <span asp-validation-for="NewDocument.Title"></span>
+            <input asp-for="NewDocument.Content" placeholder="Document Content" required />
+            <span asp-validation-for="NewDocument.Content"></span>
+            <button type="submit">Add Document</button>
+        </form>
+
+        <!-- Replace your two separate tables with this -->
+
+    <h1>My Authored Works</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>ID</th>
+                <th>Name/Title</th>
+                <th>Contents/Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var work in Model.GetInterleavedWorks())
+            {
+                @if (work is Documents doc)
+                {
+                    <tr>
+                        <td>Document</td>
+                        <td>@doc.DocumentId</td>
+                        <td>@doc.Name</td>
+                        <td>@doc.Contents</td>
+                    </tr>
+                }
+                else if (work is Movies movie)
+                {
+                    <tr>
+                        <td>Movie</td>
+                        <td>@movie.MovieId</td>
+                        <td>@movie.Title</td>
+                        <td>@movie.Duration minutes</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+        @* <h1> All projects </h1>
+
+        <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>ProjectManager</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Members</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var project in Model.CurrentProjects)
+            {
+                <tr>
+                    <td>@project.Id</td>
+                    <td>@project.ProjectManager.Name</td>
+                    <td>@project.Name</td>
+                    <td>@project.Description</td>
+                    <td>@project.Members</td>
+                </tr>
+            }
+        </tbody>
+        </table>
+
+        <h1> Projects user is part off </h1>
+        
+        <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var project in Model.ProjectsPartOff)
+            {
+                <tr>
+                    <td>@project.Name</td>
+                </tr>
+            }
+        </tbody>
+        </table>
+
+        <h1>Filter by skill</h1>
+
+        <table id="filterTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Skills</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dev in Model.Developers)
+            {
+                <tr>
+                    <td>@dev.Id</td>
+                    <td>@dev.Name</td>
+                    <td>@dev.Age</td>
+                    <td>@dev.Skills</td>
+                </tr>
+            }
+        </tbody>
+        </table>
+        <button onclick="myFunction()">Filter</button>
+        <form>
+        <input type="text" id="filterInput"><br>
+        </form>
+
+        <h1>Assign Developers</h1>
+        <form method="post" asp-page-handler="Assign" style="display: inline;">
+        <input type="text" name="developerInput"><br>
+        <input type="text" name="projectInput"><br>
+        <button type="submit" class="assign-button">Assign</button>
+        </form> *@
+
+
+
+    }
+    else
+    {
+        <div class="welcome-section">
+            <p>Please <a asp-page="/Login">login</a> to access the grade management system.</p>
+        </div>
+    }
+</div>
+
+@* @section Scripts {
+    <script>
+        function myFunction() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("filterInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("filterTable");
+        tr = table.getElementsByTagName("tr");
+
+        if (!filter.trim()) {
+            for (i = 0; i < tr.length; i++) {
+                tr[i].style.display = "";
+            }
+            return;
+        }
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[3];
+            if (td) {
+            txtValue = td.textContent || td.innerText;
+                const skills = txtValue.split(" ");
+                for(let skill of skills){
+                    if (skill.toUpperCase() ==  filter)
+                    {
+                        tr[i].style.display = "";
+                        break;
+                    } 
+                    else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    }
+    </script>
+} *@

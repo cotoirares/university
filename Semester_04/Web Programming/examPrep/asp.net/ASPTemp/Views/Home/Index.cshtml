@@ -1,0 +1,112 @@
+﻿@model ASPTemp.Models.HomeIndexViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (Context.Session.GetString("Id") != null)
+{
+    <div class="main-container">
+        <div class="section">
+            <div class="text-center">
+                <h1 class="display-4">Your projects:</h1>
+                <div class="projects-container">
+                    @if(Model.projects.Count > 0)
+                        @foreach (var item in Model.projects)
+                        {
+                            <div class="card">
+                                <p>Name: @item.Name</p>
+                                <p>Desc: @item.Description</p>
+                                <p>Members: @item.Members</p>
+                            </div>
+                        }
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="text-center">
+                <h1 class="display-4">All developers:</h1>
+                <div>
+                    <label>Filter by skills:</label>
+                    <input id="filter" type="text" class="form-control" style="width: 300px; margin: 0 auto;" />
+                </div>
+                <div class="projects-container">
+                    @if (Model.developers.Count > 0)
+                        @foreach (var item in Model.developers)
+                        {
+                            <div class="card2">
+                                <p>Name: @item.Name</p>
+                                <p>Skills: @item.Skills</p>
+                                <p>Age: @item.Age</p>
+                            </div>
+                        }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-4">You are not logged in</h1>
+    </div>
+}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const filterInput = document.getElementById("filter");
+        const developerCards = document.querySelectorAll(".card2");
+
+        filterInput.addEventListener("input", function () {
+            const filterValue = this.value.toLowerCase().trim();
+            
+            developerCards.forEach(card => {
+                const skillsText = card.querySelector("p:nth-child(2)").textContent;
+                const skills = skillsText.split("Skills:")[1]?.trim().toLowerCase() || "";
+                
+                if (filterValue === "" || skills.includes(filterValue)) {
+                    card.style.display = "block";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        });
+    });
+</script>
+
+<style>
+    .main-container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .section {
+        flex: 1;
+        max-width: 600px;
+    }
+
+    .card {
+        border: solid black 1px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .card2 {
+        border: solid black 1px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+</style>

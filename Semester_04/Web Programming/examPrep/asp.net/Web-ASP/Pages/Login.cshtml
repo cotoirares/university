@@ -1,0 +1,37 @@
+@page
+@model WEBASP.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login - Author Project";
+    Layout = "_Layout";
+}
+
+<h1>Project page </h1>
+
+<div class="login-form">
+    <h2>Login</h2>
+    
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="error">@Model.ErrorMessage</div>
+    }
+    
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Input.Username">Username:</label>
+            <input asp-for="Input.Username" required />
+            <span asp-validation-for="Input.Username" class="text-danger"></span>
+
+            <label asp-for="Input.AuthoredMovieOrDocument">Document / Movie you authored :</label>
+            <input asp-for="Input.AuthoredMovieOrDocument" required />
+            <span asp-validation-for="Input.AuthoredMovieOrDocument" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <button type="submit">Login</button>
+        </div>
+    </form>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+} 

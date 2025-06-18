@@ -1,0 +1,26 @@
+1. Write a web application in PHP for a hotel dynamic price calculation app. The application should use the following 3 tables:
+table User: id (int), username (string), password (int)
+table HotelRoom: id (int), roomNumber (string), capacity (int), basePrice (int)
+table Reservation: id (int), userld (int), roomld (int), checkinDate (date), checkOutDate (date), numberOfGuests(int), totalPrice (int)
+
+The user should authenticate prior to using the application. After authentication, the user should be able to reserve rooms. When reserving, the room price depends on how many reservations already exist for that date range. The following pricing logic is used:
+o If≤ 50% rooms are already booked: basePrice.
+o If> 50% but ≤ 80%: basePrice + 20%.
+o If>80%: basePrice + 50%.
+
+The user should be able to view the list of rooms that are free/available in a specific time period (given by 2 dates). The user can then reserve one of those rooms. The application should also display the total number of guests that are staying in the hotel in a specific date (i.e. they have reservations and the reservation period includes that day). The application should display all reservations for the user, with actual prices applied. Also, when reserving a room, the applications should prevent overlapping reservations for same user.
+
+Time: 2 hours
+
+Grading scale:
+- 1 point by default (oficiu)
+- configure web environment, create DB, authentication: 1
+-view list of available rooms in a specific time period: 1.5
+- reserve a free room: 2.5
+[actual reservation of the room: 1p; middleware pricing logic: 1.5p]
+- total number of guests staying in the hotel in a specific day: 1.5
+- display all reservations for the user, with actual prices: 1
+- prevent overlapping bookings: 1.5
+
+You are not allowed to use any other DB tables except the ones specified above. Also, all the data should be stored at the server-side in databases, not text files or something similar.
+Obs: The server-side technology (PHP or JSP or ASP.NET) is not at your choice, it will be fixed by the exam subject. However, you can change this technology to another one of your preference, but in this case the final grade that you receive will be cut at 6 (i.e. the maximum grade that you can get for this practical exam is 6).

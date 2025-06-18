@@ -1,0 +1,115 @@
+<!-- Create a single HTML web page for a subject you like (e.g. personal home page, photo collection, movie stars, cars etc.). You can NOT use any CSS or Javascript on your web page! Only basic HTML language. The web page should be HTML5 valid. 
+ You will have to use the following HTML tags in your web page: 
+ <img>,<a>,<table>,<br>,<hr>,<p>,<b>,<div>,<ul>, <li>,<section>,<article>,<footer>,<header>,<aside>,<nav>, <svg>,<audio>,<video>,<figure>,<figurecaption>,<main>. Also you should specify the type of document using <!Doctype>. The page must be at least one screen long and at most 2 screens long (using a resolution of 1024x768 pixels). The textual content of the page should be relevant to the chosen subject (not "lorem ipsum" text). <br/><br/> This single web page can be edited using any editor you want and can be presented on any browser you prefer. -->
+    
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tennis Players</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tennis Players</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#federer">Roger Federer</a></li>
+            <li><a href="#nadal">Rafael Nadal</a></li>
+            <li><a href="#djokovic">Novak Djokovic</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article id="federer">
+            <h2>Roger Federer</h2>
+            <p>Roger Federer is a Swiss professional tennis player.
+                He is ranked world No
+                4 by the Association of Tennis Professionals (ATP).
+                He has won 20 Grand Slam singles titles, the most in history 
+                <img src="federer.jpg" alt="Roger Federer" width="220" height="200">
+            </p>
+        </article>
+
+        <article id="nadal">
+            <h2>Rafael Nadal</h2>
+            <p>Rafael Nadal is a Spanish professional tennis player.
+                He is ranked world No
+                2 by the Association of Tennis Professionals (ATP).
+                He has won 19 Grand Slam singles titles, the second most in history.
+                <img src="nadal.jpg" alt="Rafael Nadal" width="220" height="200">
+            </p>
+        </article>
+
+        <article id="djokovic">
+            <h2>Novak Djokovic</h2>
+            <p>Novak Djokovic is a Serbian professional tennis player.
+                He is ranked world No
+                1 by the Association of Tennis Professionals (ATP).
+                He has won 17 Grand Slam singles titles.
+                <br>
+                <img src="djokovic.jpg" alt="Novak Djokovic" width="220" height="200">
+            </p>
+        </article>
+    </section>  
+
+    <aside>
+        <h2>Top 3 Tennis Players</h2>
+        <ul>
+            <li>Roger Federer</li>
+            <li>Rafael Nadal</li>
+            <li>Novak Djokovic</li>
+        </ul>
+    </aside>
+    <table>
+        <tr>
+            <th>Player</th>
+            <th>Grand Slam Titles</th>
+        </tr>
+        <tr>
+            <td>Roger Federer</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Rafael Nadal</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Novak Djokovic</td>
+            <td>17</td>
+        </tr>
+    </table>
+    <br>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <br>
+    <audio controls>
+        <source src="rolandgarros.mp4" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>   
+    <br>
+    <video width="320" height="240" controls>
+        <source src="rolandgarros.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <br>
+    <figure>
+        <img src="federer.jpg" alt="Roger Federer" width="220" height="200">
+        <figcaption>Roger Federer</figcaption>
+    </figure>
+
+    <main>
+        <p>Top 3 tennis players in the world</p>
+    </main>
+
+    <footer>
+        <p>Created by: stud. Rares Cotoi</p>
+    </footer>
+</body>
+</html>
+            
+
+

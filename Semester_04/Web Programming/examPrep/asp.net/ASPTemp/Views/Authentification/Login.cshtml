@@ -1,0 +1,66 @@
+﻿@model ASPTemp.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Login Page</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <div class="login-container">
+        <div class="form-holder">
+            <form asp-controller="Authentification" asp-action="Login" method="post" class="login-form">
+                <div>
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" type="text" class="form-control" />
+                </div>
+                @* <div> *@
+                @*     <label asp-for="Password">Password</label> *@
+                @*     <input asp-for="Password" type="password" class="form-control" /> *@
+                @* </div> *@
+                <button type="submit" class="btn btn-primary sbt-btn">Submit</button>
+            </form>
+        </div></div>
+</div>
+
+<style>
+    .login-form{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+        width: 500px;
+        flex-direction: column;
+    }
+
+    .login-container{
+        margin-top: 70px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sbt-btn{
+        margin-bottom: 10px;
+    }
+
+    .form-holder{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+</style>
