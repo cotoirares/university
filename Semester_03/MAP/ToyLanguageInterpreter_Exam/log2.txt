@@ -1,0 +1,490 @@
+ExeStack: [(Int a; (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b)))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+
+ExeStack: [Int a, (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+
+ExeStack: [(Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+
+ExeStack: [Int b, (a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+
+ExeStack: [(a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+
+ExeStack: [a = 2 + 3 * 5, (b = a + 1; print(b))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+
+ExeStack: [(b = a + 1; print(b))]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+
+ExeStack: [b = a + 1, print(b)]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+
+ExeStack: [print(b)]
+SymbolTable: {a=17, b=18}
+Output: []
+FileTable: {}
+
+ExeStack: []
+SymbolTable: {a=17, b=18}
+Output: [18]
+FileTable: {}
+
+ExeStack: [(Int a; (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b)))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+
+ExeStack: [Int a, (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+
+ExeStack: [(Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+
+ExeStack: [Int b, (a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+
+ExeStack: [(a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+
+ExeStack: [a = 2 + 3 * 5, (b = a + 1; print(b))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+
+ExeStack: [(b = a + 1; print(b))]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+
+ExeStack: [b = a + 1, print(b)]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+
+ExeStack: [print(b)]
+SymbolTable: {a=17, b=18}
+Output: []
+FileTable: {}
+
+ExeStack: []
+SymbolTable: {a=17, b=18}
+Output: [18]
+FileTable: {}
+
+ExeStack: [(Int a; (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b)))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [Int a, (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [Int b, (a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [a = 2 + 3 * 5, (b = a + 1; print(b))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(b = a + 1; print(b))]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [b = a + 1, print(b)]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(b)]
+SymbolTable: {a=17, b=18}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: []
+SymbolTable: {a=17, b=18}
+Output: [18]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(Int a; (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b)))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [Int a, (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [Int a, (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [Int b, (a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [Int b, (a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [a = 2 + 3 * 5, (b = a + 1; print(b))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [a = 2 + 3 * 5, (b = a + 1; print(b))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(b = a + 1; print(b))]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(b = a + 1; print(b))]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [b = a + 1, print(b)]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [b = a + 1, print(b)]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [print(b)]
+SymbolTable: {a=17, b=18}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [print(b)]
+SymbolTable: {a=17, b=18}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {a=17, b=18}
+Output: [18]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {a=17, b=18}
+Output: [18]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {a=17, b=18}
+Output: [18]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(Int a; (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b)))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [Int a, (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [Int a, (Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(Int b; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [Int b, (a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [Int b, (a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [a = 2 + 3 * 5, (b = a + 1; print(b))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [a = 2 + 3 * 5, (b = a + 1; print(b))]
+SymbolTable: {a=0, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(b = a + 1; print(b))]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [(b = a + 1; print(b))]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [b = a + 1, print(b)]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [b = a + 1, print(b)]
+SymbolTable: {a=17, b=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [print(b)]
+SymbolTable: {a=17, b=18}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: [print(b)]
+SymbolTable: {a=17, b=18}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {a=17, b=18}
+Output: [18]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {a=17, b=18}
+Output: [18]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {a=17, b=18}
+Output: [18]
+FileTable: {}
+Heap: (Heap is empty!)
+
+

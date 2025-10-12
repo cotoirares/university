@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="View.gui.ProgramListController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <top>
+        <Label text="Available Programs" style="-fx-font-size: 18px; -fx-font-weight: bold" 
+               BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="10"/>
+            </padding>
+        </Label>
+    </top>
+
+    <center>
+        <ListView fx:id="programListView" VBox.vgrow="ALWAYS"/>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" spacing="10">
+            <padding>
+                <Insets top="10"/>
+            </padding>
+            <Button text="Execute Selected Program" 
+                    onAction="#executeProgram" 
+                    style="-fx-background-color: #4CAF50; -fx-text-fill: white;"/>
+        </HBox>
+    </bottom>
+</BorderPane> 

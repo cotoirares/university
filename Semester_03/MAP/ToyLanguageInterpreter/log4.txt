@@ -1,0 +1,507 @@
+ExeStack: [(String varf; (varf = test.in; (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+
+ExeStack: [String varf, (varf = test.in; (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+
+ExeStack: [(varf = test.in; (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))))]
+SymbolTable: {varf=}
+Output: []
+FileTable: {}
+
+ExeStack: [varf = test.in, (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))))]
+SymbolTable: {varf=}
+Output: []
+FileTable: {}
+
+ExeStack: [(openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {}
+
+ExeStack: [openRFile(varf), (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {}
+
+ExeStack: [(Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [Int varc, (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [(readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))]
+SymbolTable: {varf=test.in, varc=0}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [readFile(varf, varc), (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))]
+SymbolTable: {varf=test.in, varc=0}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [(print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))]
+SymbolTable: {varf=test.in, varc=15}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [print(varc), (readFile(varf, varc); (print(varc); closeRFile(varf)))]
+SymbolTable: {varf=test.in, varc=15}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [(readFile(varf, varc); (print(varc); closeRFile(varf)))]
+SymbolTable: {varf=test.in, varc=15}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [readFile(varf, varc), (print(varc); closeRFile(varf))]
+SymbolTable: {varf=test.in, varc=15}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [(print(varc); closeRFile(varf))]
+SymbolTable: {varf=test.in, varc=0}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [print(varc), closeRFile(varf)]
+SymbolTable: {varf=test.in, varc=0}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [closeRFile(varf)]
+SymbolTable: {varf=test.in, varc=0}
+Output: [15, 0]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: []
+SymbolTable: {varf=test.in, varc=0}
+Output: [15, 0]
+FileTable: {test.in=null}
+
+ExeStack: [(String varf; (varf = test.in; (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+
+ExeStack: [String varf, (varf = test.in; (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+
+ExeStack: [(varf = test.in; (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))))]
+SymbolTable: {varf=}
+Output: []
+FileTable: {}
+
+ExeStack: [varf = test.in, (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))))]
+SymbolTable: {varf=}
+Output: []
+FileTable: {}
+
+ExeStack: [(openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {}
+
+ExeStack: [openRFile(varf), (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {}
+
+ExeStack: [(Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [Int varc, (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [(readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))]
+SymbolTable: {varf=test.in, varc=0}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [readFile(varf, varc), (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))]
+SymbolTable: {varf=test.in, varc=0}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [(print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))]
+SymbolTable: {varf=test.in, varc=15}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [print(varc), (readFile(varf, varc); (print(varc); closeRFile(varf)))]
+SymbolTable: {varf=test.in, varc=15}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [(readFile(varf, varc); (print(varc); closeRFile(varf)))]
+SymbolTable: {varf=test.in, varc=15}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [readFile(varf, varc), (print(varc); closeRFile(varf))]
+SymbolTable: {varf=test.in, varc=15}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [(print(varc); closeRFile(varf))]
+SymbolTable: {varf=test.in, varc=0}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [print(varc), closeRFile(varf)]
+SymbolTable: {varf=test.in, varc=0}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: [closeRFile(varf)]
+SymbolTable: {varf=test.in, varc=0}
+Output: [15, 0]
+FileTable: {test.in=java.io.BufferedReader@7cd84586}
+
+ExeStack: []
+SymbolTable: {varf=test.in, varc=0}
+Output: [15, 0]
+FileTable: {test.in=null}
+
+ExeStack: [(String varf; (varf = test.in; (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [String varf, (varf = test.in; (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(varf = test.in; (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))))]
+SymbolTable: {varf=}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [varf = test.in, (openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))))]
+SymbolTable: {varf=}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(openRFile(varf); (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [openRFile(varf), (Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(Int varc; (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [Int varc, (readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))]
+SymbolTable: {varf=test.in}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(readFile(varf, varc); (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf)))))]
+SymbolTable: {varf=test.in, varc=0}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [readFile(varf, varc), (print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))]
+SymbolTable: {varf=test.in, varc=0}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(varc); (readFile(varf, varc); (print(varc); closeRFile(varf))))]
+SymbolTable: {varf=test.in, varc=15}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(varc), (readFile(varf, varc); (print(varc); closeRFile(varf)))]
+SymbolTable: {varf=test.in, varc=15}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(readFile(varf, varc); (print(varc); closeRFile(varf)))]
+SymbolTable: {varf=test.in, varc=15}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [readFile(varf, varc), (print(varc); closeRFile(varf))]
+SymbolTable: {varf=test.in, varc=15}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(varc); closeRFile(varf))]
+SymbolTable: {varf=test.in, varc=0}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(varc), closeRFile(varf)]
+SymbolTable: {varf=test.in, varc=0}
+Output: [15]
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: [closeRFile(varf)]
+SymbolTable: {varf=test.in, varc=0}
+Output: [15, 0]
+FileTable: {test.in=java.io.BufferedReader@6576fe71}
+Heap: (Heap is empty!)
+
+
+ExeStack: []
+SymbolTable: {varf=test.in, varc=0}
+Output: [15, 0]
+FileTable: {test.in=null}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(Ref(Int) v; (NewStatement(v, 20); (Ref(Ref(Int)) a; (NewStatement(a, v); (print(v); print(a))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [Ref(Int) v, (NewStatement(v, 20); (Ref(Ref(Int)) a; (NewStatement(a, v); (print(v); print(a)))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [Ref(Int) v, (NewStatement(v, 20); (Ref(Ref(Int)) a; (NewStatement(a, v); (print(v); print(a)))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(NewStatement(v, 20); (Ref(Ref(Int)) a; (NewStatement(a, v); (print(v); print(a)))))]
+SymbolTable: {v=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(NewStatement(v, 20); (Ref(Ref(Int)) a; (NewStatement(a, v); (print(v); print(a)))))]
+SymbolTable: {v=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [NewStatement(v, 20), (Ref(Ref(Int)) a; (NewStatement(a, v); (print(v); print(a))))]
+SymbolTable: {v=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [NewStatement(v, 20), (Ref(Ref(Int)) a; (NewStatement(a, v); (print(v); print(a))))]
+SymbolTable: {v=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(Ref(Ref(Int)) a; (NewStatement(a, v); (print(v); print(a))))]
+SymbolTable: {v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+
+
+ID: 0
+ExeStack: [(Ref(Ref(Int)) a; (NewStatement(a, v); (print(v); print(a))))]
+SymbolTable: {v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+
+
+ID: 0
+ExeStack: [Ref(Ref(Int)) a, (NewStatement(a, v); (print(v); print(a)))]
+SymbolTable: {v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+
+
+ID: 0
+ExeStack: [Ref(Ref(Int)) a, (NewStatement(a, v); (print(v); print(a)))]
+SymbolTable: {v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+
+
+ID: 0
+ExeStack: [(NewStatement(a, v); (print(v); print(a)))]
+SymbolTable: {a=RefValue(0, Ref(Int)), v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+
+
+ID: 0
+ExeStack: [(NewStatement(a, v); (print(v); print(a)))]
+SymbolTable: {a=RefValue(0, Ref(Int)), v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+
+
+ID: 0
+ExeStack: [NewStatement(a, v), (print(v); print(a))]
+SymbolTable: {a=RefValue(0, Ref(Int)), v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+
+
+ID: 0
+ExeStack: [NewStatement(a, v), (print(v); print(a))]
+SymbolTable: {a=RefValue(0, Ref(Int)), v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+
+
+ID: 0
+ExeStack: [(print(v); print(a))]
+SymbolTable: {a=RefValue(2, Ref(Int)), v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+2 -> RefValue(1, Int)
+
+
+ID: 0
+ExeStack: [(print(v); print(a))]
+SymbolTable: {a=RefValue(2, Ref(Int)), v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+2 -> RefValue(1, Int)
+
+
+ID: 0
+ExeStack: [print(v), print(a)]
+SymbolTable: {a=RefValue(2, Ref(Int)), v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+2 -> RefValue(1, Int)
+
+
+ID: 0
+ExeStack: [print(v), print(a)]
+SymbolTable: {a=RefValue(2, Ref(Int)), v=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 20
+2 -> RefValue(1, Int)
+
+
+ID: 0
+ExeStack: [print(a)]
+SymbolTable: {a=RefValue(2, Ref(Int)), v=RefValue(1, Int)}
+Output: [RefValue(1, Int)]
+FileTable: {}
+Heap: 1 -> 20
+2 -> RefValue(1, Int)
+
+
+ID: 0
+ExeStack: [print(a)]
+SymbolTable: {a=RefValue(2, Ref(Int)), v=RefValue(1, Int)}
+Output: [RefValue(1, Int)]
+FileTable: {}
+Heap: 1 -> 20
+2 -> RefValue(1, Int)
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {a=RefValue(2, Ref(Int)), v=RefValue(1, Int)}
+Output: [RefValue(1, Int), RefValue(2, Ref(Int))]
+FileTable: {}
+Heap: 1 -> 20
+2 -> RefValue(1, Int)
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {a=RefValue(2, Ref(Int)), v=RefValue(1, Int)}
+Output: [RefValue(1, Int), RefValue(2, Ref(Int))]
+FileTable: {}
+Heap: 1 -> 20
+2 -> RefValue(1, Int)
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {a=RefValue(2, Ref(Int)), v=RefValue(1, Int)}
+Output: [RefValue(1, Int), RefValue(2, Ref(Int))]
+FileTable: {}
+Heap: 1 -> 20
+2 -> RefValue(1, Int)
+
+

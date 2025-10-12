@@ -1,0 +1,2855 @@
+ID: 0
+ExeStack: [(Ref(Int) v1; (Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Ref(Int) v1, (Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Ref(Int) v1, (Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Int cnt, (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Int cnt, (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [NewStatement(v1, 1), (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [NewStatement(v1, 1), (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [createSemaphore(cnt, RefExp(v1)), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [createSemaphore(cnt, RefExp(v1)), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))), (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))), (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [(acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [(print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [print(RefExp(v1) - 1), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [print(RefExp(v1) - 1), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 2), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 2), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Ref(Int) v1; (Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Ref(Int) v1, (Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Ref(Int) v1, (Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Int cnt, (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Int cnt, (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [NewStatement(v1, 1), (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [NewStatement(v1, 1), (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [createSemaphore(cnt, RefExp(v1)), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [createSemaphore(cnt, RefExp(v1)), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))), (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))), (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [(acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [(print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [print(RefExp(v1) - 1), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [print(RefExp(v1) - 1), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 2), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 2), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Ref(Int) v1; (Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Ref(Int) v1, (Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Ref(Int) v1, (Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(Int cnt; (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Int cnt, (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [Int cnt, (NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(NewStatement(v1, 1); (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [NewStatement(v1, 1), (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [NewStatement(v1, 1), (createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(createSemaphore(cnt, RefExp(v1)); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [createSemaphore(cnt, RefExp(v1)), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [createSemaphore(cnt, RefExp(v1)), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=0, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))); (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))), (Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))); (acquire(cnt); (print(RefExp(v1) - 1); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))), (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [Fork((acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))), (acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [(acquire(cnt); (print(RefExp(v1) - 1); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [(acquire(cnt); (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 1
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 1
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[1])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [acquire(cnt), (print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: [(print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [(print(RefExp(v1) - 1); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [print(RefExp(v1) - 1), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [print(RefExp(v1) - 1), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[0])
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: [acquire(cnt), (WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 10); (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt))))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 10), (WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 10
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(v1, RefExp(v1) * 2); (print(RefExp(v1)); release(cnt)))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 2), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(v1, RefExp(v1) * 2), (print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 100
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [(print(RefExp(v1)); release(cnt))]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [print(RefExp(v1)), release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: [release(cnt)]
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[2])
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[])
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {cnt=1, v1=RefValue(1, Int)}
+Output: [10, 9, 200]
+FileTable: {}
+Heap: 1 -> 200
+
+SemaphoreTable: 1->(1,[])
+
+

@@ -1,0 +1,3408 @@
+ExeStack: [(Int v; (v = 4; (WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [Int v, (v = 4; (WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(v = 4; (WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = 4, (WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@7e6cbb7a, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(Int v; (v = 4; (WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [Int v, (v = 4; (WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(v = 4; (WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = 4, (WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@63c12fb0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(Int v; (v = 4; (WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@6477463f, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(Int v; (v = 4; (WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(Model.Expression.RelationalExpression@5b80350b, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(Int v; (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(Int v; (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(Int v; (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(Int v; (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(Int v; (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(Int v; (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [Int v, (v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(v = 4; (WhileStatement(v>0, (print(v); v = v - 1)); print(v)))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = 4, (WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(WhileStatement(v>0, (print(v); v = v - 1)); print(v))]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=4}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [(print(v); v = v - 1), WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v), v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [v = v - 1, WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [WhileStatement(v>0, (print(v); v = v - 1)), print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: [print(v)]
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 8
+ExeStack: []
+SymbolTable: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: (Heap is empty!)
+
+

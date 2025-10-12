@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="View.gui.MainWindowController">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+    <top>
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Number of Program States:" />
+            <TextField fx:id="numberOfPrgStatesTextField" editable="false" prefWidth="50"/>
+            <Button fx:id="runOneStepButton" text="Run One Step" onAction="#runOneStep"/>
+        </HBox>
+    </top>
+
+    <left>
+        <VBox spacing="10">
+            <Label text="Heap Table:" style="-fx-font-weight: bold"/>
+            <TableView fx:id="heapTableView" prefHeight="200">
+                <columns>
+                    <TableColumn fx:id="heapAddressColumn" text="Address" prefWidth="100"/>
+                    <TableColumn fx:id="heapValueColumn" text="Value" prefWidth="100"/>
+                </columns>
+            </TableView>
+
+            <Label text="Output:" style="-fx-font-weight: bold"/>
+            <ListView fx:id="outputListView" prefHeight="200"/>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox spacing="10">
+            <padding>
+                <Insets left="10" right="10"/>
+            </padding>
+
+            <Label text="Program States:" style="-fx-font-weight: bold"/>
+            <ListView fx:id="prgStateIdentifiersListView" prefHeight="100"/>
+
+            <Label text="Symbol Table:" style="-fx-font-weight: bold"/>
+            <TableView fx:id="symTableView" prefHeight="200">
+                <columns>
+                    <TableColumn fx:id="symTableVarNameColumn" text="Variable" prefWidth="100"/>
+                    <TableColumn fx:id="symTableValueColumn" text="Value" prefWidth="100"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+
+    <right>
+        <VBox spacing="10">
+            <Label text="Execution Stack:" style="-fx-font-weight: bold"/>
+            <ListView fx:id="exeStackListView" prefHeight="300"/>
+
+            <Label text="File Table:" style="-fx-font-weight: bold"/>
+            <ListView fx:id="fileTableListView" prefHeight="200"/>
+        </VBox>
+    </right>
+</BorderPane> 

@@ -1,0 +1,1088 @@
+ID: 9
+ExeStack: [(Int v; (Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [Int v, (Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [Int v, (Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [Ref(Int) a, (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [Ref(Int) a, (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [v = 10, (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [v = 10, (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=10}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=10}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [NewStatement(a, 22), (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(0, Int), v=10}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [NewStatement(a, 22), (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(0, Int), v=10}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [(Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))), (print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))), (print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [(print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 11
+ExeStack: [(WriteHeapStmt(a, 30); (v = 32; print(v)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [(print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 11
+ExeStack: [(WriteHeapStmt(a, 30); (v = 32; print(v)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [print(v), print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 11
+ExeStack: [WriteHeapStmt(a, 30), (v = 32; print(v))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [print(v), print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 11
+ExeStack: [WriteHeapStmt(a, 30), (v = 32; print(v))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [(v = 32; print(v))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 9
+ExeStack: [print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [(v = 32; print(v))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 9
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [v = 32, print(v)]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 9
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [v = 32, print(v)]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 9
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [print(v)]
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [print(v)]
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30, 32]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30, 32]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30, 32]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 9
+ExeStack: [(Int v; (Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [Int v, (Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [Int v, (Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(Ref(Int) a; (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [Ref(Int) a, (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [Ref(Int) a, (v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))]
+SymbolTable: {v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(v = 10; (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [v = 10, (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [v = 10, (NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=10}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(NewStatement(a, 22); (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=10}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [NewStatement(a, 22), (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(0, Int), v=10}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [NewStatement(a, 22), (Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(0, Int), v=10}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 9
+ExeStack: [(Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [(Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))); (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))), (print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [Fork((WriteHeapStmt(a, 30); (v = 32; print(v)))), (print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [(print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 11
+ExeStack: [(WriteHeapStmt(a, 30); (v = 32; print(v)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [(print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 11
+ExeStack: [(WriteHeapStmt(a, 30); (v = 32; print(v)))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [print(v), print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 11
+ExeStack: [WriteHeapStmt(a, 30), (v = 32; print(v))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [print(v), print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 11
+ExeStack: [WriteHeapStmt(a, 30), (v = 32; print(v))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: []
+FileTable: {}
+Heap: 1 -> 22
+
+
+ID: 9
+ExeStack: [print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [(v = 32; print(v))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 9
+ExeStack: [print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [(v = 32; print(v))]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 9
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [v = 32, print(v)]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 9
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [v = 32, print(v)]
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 9
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=10}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [print(v)]
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: [print(v)]
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30, 32]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30, 32]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 11
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=32}
+Output: [10, 30, 32]
+FileTable: {}
+Heap: 1 -> 30
+
+
+ID: 0
+ExeStack: [(Ref(Int) a; (Int v; (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [Ref(Int) a, (Int v; (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [Ref(Int) a, (Int v; (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(Int v; (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))))]
+SymbolTable: {a=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(Ref(Int) a; (Int v; (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a))))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [Ref(Int) a, (Int v; (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [Ref(Int) a, (Int v; (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))))]
+SymbolTable: {}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(Int v; (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))))]
+SymbolTable: {a=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(Int v; (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))))]
+SymbolTable: {a=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [Int v, (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a))))))]
+SymbolTable: {a=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [Int v, (NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a))))))]
+SymbolTable: {a=RefValue(0, Int)}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a))))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(NewStatement(a, 10); (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a))))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [NewStatement(a, 10), (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [NewStatement(a, 10), (Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(0, Int), v=0}
+Output: []
+FileTable: {}
+Heap: (Heap is empty!)
+
+
+ID: 0
+ExeStack: [(Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [(Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))); (v = 30; (print(v); print(RefExp(a)))))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))), (v = 30; (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [Fork((v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))), (v = 30; (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [(v = 30; (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [(v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [(v = 30; (print(v); print(RefExp(a))))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [(v = 20; (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v)))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [v = 30, (print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [v = 20, (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [v = 30, (print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [v = 20, (Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v))]
+SymbolTable: {a=RefValue(1, Int), v=0}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [(print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=30}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [(Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v))]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [(print(v); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=30}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [(Fork((WriteHeapStmt(a, 40); print(RefExp(a)))); print(v))]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [print(v), print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=30}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [Fork((WriteHeapStmt(a, 40); print(RefExp(a)))), print(v)]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [print(v), print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=30}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [Fork((WriteHeapStmt(a, 40); print(RefExp(a)))), print(v)]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: []
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=30}
+Output: [30]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [print(v)]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(a, 40); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: [print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=30}
+Output: [30]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: [print(v)]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 2
+ExeStack: [(WriteHeapStmt(a, 40); print(RefExp(a)))]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=30}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(a, 40), print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=30}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 2
+ExeStack: [WriteHeapStmt(a, 40), print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 10
+
+
+ID: 0
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=30}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 40
+
+
+ID: 1
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 40
+
+
+ID: 2
+ExeStack: [print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 40
+
+
+ID: 2
+ExeStack: [print(RefExp(a))]
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10]
+FileTable: {}
+Heap: 1 -> 40
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10, 40]
+FileTable: {}
+Heap: 1 -> 40
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10, 40]
+FileTable: {}
+Heap: 1 -> 40
+
+
+ID: 2
+ExeStack: []
+SymbolTable: {a=RefValue(1, Int), v=20}
+Output: [30, 20, 10, 40]
+FileTable: {}
+Heap: 1 -> 40
+
+
